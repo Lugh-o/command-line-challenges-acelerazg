@@ -43,3 +43,4 @@
 - **p43-i:** `ls -p | grep -v / | ls -Ap | grep -v '/' | wc -l`
 - **p44-i:** `find . -mindepth 1 -type d | wc -l`
 - **p45-i:** `find . -type f -name '*deleteme*' -exec rm -v {} +`
+- **p46-i:** `grep -rl "You found the needle in the haystack!" . | xargs -d '\n' -r sed -i 's/You found the needle in the haystack!/The needle has been removed./g'`
