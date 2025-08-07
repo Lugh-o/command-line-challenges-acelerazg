@@ -21,3 +21,4 @@
 - **p21-b:** chmod u+x challenge_20 | ./challenge_20
 - **p22-b:** gcc compile_me.c; ./a.out
 - **p23-a:** ./redirect &>> output.txt
+- **p24-b:** date
