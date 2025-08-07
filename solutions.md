@@ -9,3 +9,4 @@
 - **p9-b:** touch empty.txt
 - **p10-b:** rm empty.txt
 - **p11-i:** echo "" > empty.txt
+- **p12-i:** printf "" > empty.txt
