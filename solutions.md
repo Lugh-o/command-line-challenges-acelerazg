@@ -17,3 +17,4 @@
 - **p17-b:** pwd
 - **p18-b:** ls -l
 - **p19-b:** chmod u+w restricted.txt | printf "It is not restricted anymore" >> restricted.txt 
+- **p20-b:** chmod u+x challenge_20 | ./challenge_20
