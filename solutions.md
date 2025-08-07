@@ -28,3 +28,4 @@
 - **28-b:** `grep -roH "You found the needle in the haystack!"`
 - **29-b:** `head -n 25 people.csv`
 - **30-b:** `tail -n 25 people.csv`
+- **31-i:** `diff greeting1.txt greeting2.txt`
