@@ -25,19 +25,20 @@
 - **p25-b:** `ps -e`
 - **p26-b:** `lscpu | grep -E '^CPU\(s\)\:'`
 - **p27-b:** `uname -a`
-- **28-b:** `grep -roH "You found the needle in the haystack!"`
-- **29-b:** `head -n 25 people.csv`
-- **30-b:** `tail -n 25 people.csv`
-- **31-i:** `diff greeting1.txt greeting2.txt`
-- **32-i:** `echo "Hello"; sleep 5; echo "world!"`
-- **33-i:** `dd if=/dev/zero bs=1M count=1 | tr '\0' '0' > zero-file`
-- **34-i:** `tr -dc 'A-Za-z0-9' < /dev/urandom | head -c $((2 * 1024 * 1024)) > random-file.txt`
-- **35-i:** `cat ../README.txt | wc -l`
-- **36-b:** `tac ../README.txt`
-- **37-i:** `cat people.csv | cut -d "," -f 2`
-- **38-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
-- **39-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l`
-- **40-a:** `cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
-- **41-a:** `time (cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l) && time (cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l)`
-- **42-a:** `cat people.csv | cut -d "," -f 4 | grep Josiah | wc -l`
-- **43-i:** `ls -p | grep -v / | ls -Ap | grep -v '/' | wc -l`
+- **p28-b:** `grep -roH "You found the needle in the haystack!"`
+- **p29-b:** `head -n 25 people.csv`
+- **p30-b:** `tail -n 25 people.csv`
+- **p31-i:** `diff greeting1.txt greeting2.txt`
+- **p32-i:** `echo "Hello"; sleep 5; echo "world!"`
+- **p33-i:** `dd if=/dev/zero bs=1M count=1 | tr '\0' '0' > zero-file`
+- **p34-i:** `tr -dc 'A-Za-z0-9' < /dev/urandom | head -c $((2 * 1024 * 1024)) > random-file.txt`
+- **p35-i:** `cat ../README.txt | wc -l`
+- **p36-b:** `tac ../README.txt`
+- **p37-i:** `cat people.csv | cut -d "," -f 2`
+- **p38-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
+- **p39-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l`
+- **p40-a:** `cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
+- **p41-a:** `time (cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l) && time (cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l)`
+- **p42-a:** `cat people.csv | cut -d "," -f 4 | grep Josiah | wc -l`
+- **p43-i:** `ls -p | grep -v / | ls -Ap | grep -v '/' | wc -l`
+- **p44-i:** `find . -mindepth 1 -type d | wc -l`
