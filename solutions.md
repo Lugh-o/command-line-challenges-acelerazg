@@ -35,3 +35,4 @@
 - **35-i:** `cat ../README.txt | wc -l`
 - **36-b:** `tac ../README.txt`
 - **37-i:** `cat people.csv | cut -d "," -f 2`
+- **38-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
