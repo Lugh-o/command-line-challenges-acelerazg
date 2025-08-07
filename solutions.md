@@ -47,4 +47,4 @@
 - **p47-a:** `cat people.csv | tr ',' '|' > people_pipe.csv`
 - **p48-a:** `md5_target=$(md5sum bunch_of_files/file001.rand | cut -d ' ' -f1) && find bunch_of_files/ -type f ! -name 'file001.rand' -exec md5sum {} + | awk -v hash="$md5_target" '$1 == hash {print $2}'`
 - **p49-a.1-b:** `touch supercalifragilisticexpialidocious.txt`
-- **p49-a.2-a:**
+- **p49-a.2-a:** `rm $_`
