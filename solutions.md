@@ -33,3 +33,4 @@
 - **33-i:** `dd if=/dev/zero bs=1M count=1 | tr '\0' '0' > zero-file`
 - **34-i:** `tr -dc 'A-Za-z0-9' < /dev/urandom | head -c $((2 * 1024 * 1024)) > random-file.txt`
 - **35-i:** `cat ../README.txt | wc -l`
+- **36-b:** `tac ../README.txt`
