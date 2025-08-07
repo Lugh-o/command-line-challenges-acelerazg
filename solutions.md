@@ -7,3 +7,4 @@
 - **p7-b:** echo "Hello World"	
 - **p8-b:** echo 'Hello World' > hello.txt
 - **p9-b:** touch empty.txt
+- **p10-b:** rm empty.txt
