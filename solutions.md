@@ -1,25 +1,26 @@
-- **p1-b:** tar -xzf challenges.tar.gz 
-- **p2-b:** cd challenges/
-- **p3-b:** ls
-- **p4-b:** mkdir foo
-- **p5-i:** mkdir -p foo/bar/1/2/3/
-- **p6-b:** rm -r foo/
-- **p7-b:** echo "Hello World"	
-- **p8-b:** echo 'Hello World' > hello.txt
-- **p9-b:** touch empty.txt
-- **p10-b:** rm empty.txt
-- **p11-i:** echo "" > empty.txt
-- **p12-i:** printf "" > empty.txt
-- **p13-b:** cp hello.txt goodbye.txt
-- **p14-b:** mv goodbye.txt hello_copy.txt
-- **p15-i:** diff hello.txt hello_copy.txt
-- **p16-b:** cat hello.txt hello_copy.txt > 2_hellos.txt
-- **p17-b:** pwd
-- **p18-b:** ls -l
-- **p19-b:** chmod u+w restricted.txt | printf "It is not restricted anymore" >> restricted.txt 
-- **p20-b:** ./hello_executable
-- **p21-b:** chmod u+x challenge_20 | ./challenge_20
-- **p22-b:** gcc compile_me.c; ./a.out
-- **p23-a:** ./redirect &>> output.txt
-- **p24-b:** date
-- **p25-b:** ps -e
+- **p1-b:** `tar -xzf challenges.tar.gz` 
+- **p2-b:** `cd challenges/`
+- **p3-b:** `ls`
+- **p4-b:** `mkdir foo`
+- **p5-i:** `mkdir -p foo/bar/1/2/3/`
+- **p6-b:** `rm -r foo/`
+- **p7-b:** `echo "Hello World"`	
+- **p8-b:** `echo 'Hello World' > hello.txt`
+- **p9-b:** `touch empty.txt`
+- **p10-b:** `rm empty.txt`
+- **p11-i:** `echo "" > empty.txt`
+- **p12-i:** `printf "" > empty.txt`
+- **p13-b:** `cp hello.txt goodbye.txt`
+- **p14-b:** `mv goodbye.txt hello_copy.txt`
+- **p15-i:** `diff hello.txt hello_copy.txt`
+- **p16-b:** `cat hello.txt hello_copy.txt > 2_hellos.txt`
+- **p17-b:** `pwd`
+- **p18-b:** `ls -l`
+- **p19-b:** `chmod u+w restricted.txt | printf "It is not restricted anymore" >> restricted.txt` 
+- **p20-b:** `./hello_executable`
+- **p21-b:** `chmod u+x challenge_20 | ./challenge_20`
+- **p22-b:** `gcc compile_me.c; ./a.out`
+- **p23-a:** `./redirect &>> output.txt`
+- **p24-b:** `date`
+- **p25-b:** `ps -e`
+- **p26-b:** `lscpu | grep -E '^CPU\(s\)\:'`
