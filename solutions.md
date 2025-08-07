@@ -26,3 +26,4 @@
 - **p26-b:** `lscpu | grep -E '^CPU\(s\)\:'`
 - **p27-b:** `uname -a`
 - **28-b:** `grep -roH "You found the needle in the haystack!"`
+- **29-b:** `head -n 25 people.csv`
