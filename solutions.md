@@ -10,3 +10,4 @@
 - **p10-b:** rm empty.txt
 - **p11-i:** echo "" > empty.txt
 - **p12-i:** printf "" > empty.txt
+- **p13-b** cp hello.txt goodbye.txt
