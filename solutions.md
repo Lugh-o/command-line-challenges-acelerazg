@@ -42,3 +42,4 @@
 - **p42-a:** `cat people.csv | cut -d "," -f 4 | grep Josiah | wc -l`
 - **p43-i:** `ls -p | grep -v / | ls -Ap | grep -v '/' | wc -l`
 - **p44-i:** `find . -mindepth 1 -type d | wc -l`
+- **p45-i:** `find . -type f -name '*deleteme*' -exec rm -v {} +`
