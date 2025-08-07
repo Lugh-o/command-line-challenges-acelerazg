@@ -40,3 +40,4 @@
 - **40-a:** `cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
 - **41-a:** `time (cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l) && time (cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l)`
 - **42-a:** `cat people.csv | cut -d "," -f 4 | grep Josiah | wc -l`
+- **43-i:** `ls -p | grep -v / | ls -Ap | grep -v '/' | wc -l`
