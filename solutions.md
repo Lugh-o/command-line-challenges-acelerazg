@@ -16,3 +16,4 @@
 - **p16-b:** cat hello.txt hello_copy.txt > 2_hellos.txt
 - **p17-b:** pwd
 - **p18-b:** ls -l
+- **p19-b:** chmod u+w restricted.txt | printf "It is not restricted anymore" >> restricted.txt 
