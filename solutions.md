@@ -24,3 +24,4 @@
 - **p24-b:** `date`
 - **p25-b:** `ps -e`
 - **p26-b:** `lscpu | grep -E '^CPU\(s\)\:'`
+- **p27-b:** `uname -a`
