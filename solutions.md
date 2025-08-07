@@ -37,3 +37,4 @@
 - **37-i:** `cat people.csv | cut -d "," -f 2`
 - **38-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
 - **39-a:** `cat people.csv | cut -d "," -f 2 | awk '!z[$0]++' | tail -n +2 | wc -l`
+- **40-a:** `cat people.csv | sed -n '1!p'| cut -d "," -f 2 | awk '!z[$0]++' | wc -l`
